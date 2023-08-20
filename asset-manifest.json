@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/almsFoundation/static/css/main.4c08209c.css",
+    "main.js": "/almsFoundation/static/js/main.14622bc1.js",
+    "static/js/787.3030178b.chunk.js": "/almsFoundation/static/js/787.3030178b.chunk.js",
+    "static/media/AboutUs.jpg": "/almsFoundation/static/media/AboutUs.e767c0269c7aea503d32.jpg",
+    "static/media/ALMS Logo.jpeg": "/almsFoundation/static/media/ALMS Logo.b7811827a2c183c6d91e.jpeg",
+    "index.html": "/almsFoundation/index.html",
+    "main.4c08209c.css.map": "/almsFoundation/static/css/main.4c08209c.css.map",
+    "main.14622bc1.js.map": "/almsFoundation/static/js/main.14622bc1.js.map",
+    "787.3030178b.chunk.js.map": "/almsFoundation/static/js/787.3030178b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c08209c.css",
+    "static/js/main.14622bc1.js"
+  ]
+}
