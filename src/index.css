@@ -1,0 +1,323 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e9f7f7;
+  /* min-width: 700px; */
+}
+
+/* nav bar */
+
+header{
+  width: 100%;
+  /* position:fixed; */
+  z-index: 10;
+  min-width: max-content;
+}
+
+.main-navContainer{
+  background-color: #23f3fb50;
+  font-family: Arial;
+  display: flex;
+  justify-content:space-evenly;
+  position: sticky;
+  width: 100%;
+  width: auto;
+  z-index: 10;
+}
+
+.alms-logo{
+  display: flex;
+}
+.alms-logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.alms-logoname{
+  display: grid;
+  align-self: center;
+  margin-left: 1rem;
+}
+.alms-logoname h1{
+  color: #003D73;
+}
+.alms-logoname p{
+  color: #003D73;
+}
+
+
+.alms{
+  color: #0878A4;
+  animation: almss 3s;
+}
+@keyframes almss{
+  50%{
+    color: #525B56;
+  }
+  100%{
+    color: #a59589;
+  }
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-links li{
+  margin-left: 1.5rem;
+}
+.nav-links a{
+  text-decoration: none;
+  color: #c05640;
+}
+
+/* About us */
+
+.bg-image{
+  background-image: url("../src/images/AboutUs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-width: max-content;
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial;
+  /* min-height: 120vh; */
+}
+
+.main-aboutUscontainer{
+  /* margin-top: 54px; */
+}
+
+.ourVision{
+  font-size: 35px;
+  background-color: #080809;
+  opacity: 0.6;
+}
+.vision{
+  margin-top: 50px;
+  color: #dbd9e7;
+  font-size: 18px;
+  width: 400px;
+  min-width: 400px;
+  background-color: black;
+  opacity: 0.7;
+  height: max-content;
+  text-align:justify ;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+.ourMission{
+  font-size: 35px;
+  color: #525B56;
+  
+}
+.mission{
+  margin-top: 300px;
+  color: #b9b3b3;
+  font-size: 18px;
+  width: 450px;
+  min-width: 450px;
+  background-color: black;
+  opacity: 0.8;
+  height: max-content;
+  text-align: justify;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+/* Program */
+
+.programContainer{
+  margin-top: 20px;
+}
+
+.programContainer h1{
+  margin-left: 30px;
+  font-family: Arial;
+  color: #003D73;
+  font-size: 35px;
+}
+
+.desc1{
+  font-size: 15px;
+  font-weight: 70;
+  color: #2e83cd;
+}
+
+.our-program{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.about-prog{
+  width: 200px;
+  height: fit-content;
+  min-width: 400px;
+  margin-top: 4rem;
+  /* text-align: justify; */
+  /* padding: 1.5rem; */
+  /* border-radius: 1rem; */
+  /* display: grid;
+  align-self:center; */
+  position: relative;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 20px;
+  color: #12a3a8;
+}
+
+.about-progslides{
+  width: max-content;
+  background-color: #d3e8ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  height: max-content;
+  font-family: Arial;
+}
+.about-progslides:hover{
+  transform: scale(1.01);
+  transition: ease-in;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 10px 5px rgb(121, 119, 119);
+}
+.about-progslides h3{
+  color: #12a3a8;
+}
+.about-progslides img{
+  height: 400px;
+  width: 450px;
+  margin-top: 1rem;
+}
+.about-progslides p{
+  margin-top: 0.5rem;
+  width: 450px;
+  height: 80px;
+  text-align: justify;
+  color: #12a3a8;
+}
+
+.toggle-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 2rem;
+}
+.prev-btn{
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: grey;
+}
+.prev-btn:hover{
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: ease-in;
+}
+.next-btn{
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: grey;
+}
+.next-btn:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: ease-in;
+}
+
+/* Donations */
+
+.donations{
+  margin-top: 30px;
+}
+.donations h3{
+  margin-left: 30px;
+  font-family: Arial;
+  color: #003D73;
+  font-size: 35px;
+}
+
+.section-donation{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  min-height: fit-content;
+}
+.section-donation p{
+  width: 500px;
+  min-width: 500px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 20px;
+  color: #12a3a8;
+}
+
+.donation-table{
+  background-color: #d3e8ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  height:fit-content;
+}
+.donation-table h5{
+  font-family: Arial;
+  font-size: 25px;
+  background-color: #003D73;
+  padding: 1rem;
+  color: #d3e8ff;
+}
+.donation-table table{
+  /* border: 1px solid black; */
+  margin-top: 0.7rem;
+}
+.donation-table td{
+  border: 1px solid #0878A4;
+  padding: 1rem;
+  font-size: 20px;
+  color: #0b0b0b;
+  background-color: hsl(211, 66%, 84%);
+
+}
+
+.account-togglebtn h6{
+  font-size: 25px;
+  margin-top: 10px;
+  color: #003D73;
+}
+
+.account-togglebtn
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #12a3a8;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+}
+.account-togglebtn button{
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #003D73;
+}
+.account-togglebtn button:hover{
+  cursor: pointer;
+  color: #0c6467;
+}
+
+.upi-table img{
+  height: 200px;
+  width: 200px;
+  margin-top: 0.5rem;
+}
